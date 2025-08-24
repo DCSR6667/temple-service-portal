@@ -1,0 +1,18 @@
+.carousel-inner img {
+    height: 640px; /* Set your desired height here */
+    object-fit: cover; /* This will maintain aspect ratio and cover the entire area */
+    width:100%;
+    
+   
+
+  }
+
+  .box{
+    /* background-color: hwb(54 63% 0% / 0.475); */
+    
+        background-image: url('/public/images/blur.webp');
+        background-size: cover;  /* Make the background cover the entire element */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Prevent the image from repeating */     
+    padding:30px;
+  }

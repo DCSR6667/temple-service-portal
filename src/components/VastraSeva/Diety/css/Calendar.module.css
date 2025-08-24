@@ -1,0 +1,77 @@
+.calendar {
+  max-width: 100%; /* Fit to screen width */
+  padding: 20px; /* Padding around the calendar */
+  margin: auto; /* Center the calendar */
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between; /* Align buttons to the sides */
+  align-items: center; /* Center align vertically */
+  margin-bottom: 10px; /* Space below the header */
+}
+
+.btn {
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  padding: 13px; /* Button padding */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for weekdays */
+  font-weight: bold; /* Bold font for weekdays */
+  text-align: center; /* Center align text */
+  margin-bottom: 10px; /* Space below weekdays */
+}
+
+.weekday {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px; /* Padding for weekday names */
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for days */
+}
+
+.day {
+  padding: 10px; /* Padding for day cells */
+  text-align: center; /* Center align day numbers */
+  height: 60px; /* Height for each day cell */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+  font-size: 19px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.day:hover {
+  background-color: #e9ecef; /* Light gray background on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .day {
+    padding: 10px; /* Smaller padding on mobile */
+    height: 60px; /* Adjust height on smaller screens */
+  }
+
+  .btn {
+    padding: 5px; /* Smaller button padding on mobile */
+  }
+
+  .weekday {
+    font-size: 0.9rem; /* Smaller font size on mobile */
+  }
+}

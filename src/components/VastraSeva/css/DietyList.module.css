@@ -1,0 +1,32 @@
+.title1{
+    color: #F97F51;
+    font-size:18px;
+} 
+.diety_name_link{
+    text-decoration: none;
+    font-size:20px;
+    text-align:center;
+    color:white;
+
+}
+
+.diety_name_col
+{
+    text-align:center;
+    background-color: #F97F51;
+    margin-top:7px;
+    
+}
+
+.diety_names_col
+{
+    border:2px solid #F97F51;
+}
+
+.icon
+{
+    color:#F97F51;
+    font-size: 20px;
+    margin-right:8px;
+}
+

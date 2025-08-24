@@ -1,0 +1,19 @@
+.heading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+}
