@@ -92,7 +92,7 @@ const OnlineServices = () => {
             <div className="col-12 mt-2">
               <img
                 className={css["img"] + " rounded"}
-                src="/images/robo.JPG"
+                src="/images/robo.jpg"
                 alt="dummy-img"
               />
             </div>
